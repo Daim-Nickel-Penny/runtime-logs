@@ -23,3 +23,18 @@ body {
 a {
   @apply text-blue-500/80 no-underline;
 }
+
+@layer utilities {
+  .p-property-title {
+    @apply flex items-center gap-2 font-sans text-lg font-normal leading-tight tracking-tighter text-gray-600;
+  }
+  .p-property-title-value {
+    @apply flex items-center gap-2 font-mono text-lg font-normal leading-tight tracking-tighter text-gray-600;
+  }
+  .p-property-key {
+    @apply flex flex-row items-center gap-2 font-sans font-semibold text-gray-500;
+  }
+  .p-property-value {
+    @apply font-mono font-semibold text-white/90;
+  }
+}
