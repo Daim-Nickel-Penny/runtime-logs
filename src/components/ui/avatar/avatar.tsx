@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 interface Avatar {
   src: string;
   alt: string;
-  size: "sm" | "md" | "lg";
+  size: 'sm' | 'md' | 'lg';
 }
 
 const Avatar: React.FC<Avatar> = (props) => {
@@ -11,11 +11,11 @@ const Avatar: React.FC<Avatar> = (props) => {
     <>
       <Image
         src={props.src}
-        alt={props.alt || "image"}
+        alt={props.alt || 'image'}
         quality={70}
         width={25}
         height={25}
-        className="rounded-full"
+        className="pointer-events-none select-none rounded-full"
       />
     </>
   );
