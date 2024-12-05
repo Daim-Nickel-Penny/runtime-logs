@@ -7,17 +7,17 @@ interface FrameWorkSupported {
 export const FrameWorkSupportedData: FrameWorkSupported[] = [
   {
     name: "NestJs",
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
+    src: "https://cdn-icons-png.flaticon.com/128/919/919832.png",
     alt: "nestjs",
   },
   {
     name: "Express",
-    src: "https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png",
+    src: "https://cdn-icons-png.flaticon.com/128/5968/5968322.png",
     alt: "express",
   },
   {
     name: "FastAPI",
-    src: "https://avatars.githubusercontent.com/u/156354296?s=200&v=4",
+    src: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png",
     alt: "fast api",
   },
 ];
